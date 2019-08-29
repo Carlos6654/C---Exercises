@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int ano = 2019;
+    int idade = 25;
+
+    printf("Estamos no ano de %d e Jose tem %d anos \n", ano, idade);
+    printf("Em %d ele tera %d \n", ano+1, idade+1);
+
+
+    printf("1 -     Clientes\n");
+    printf("2 -     Fornecedores\n");
+    printf("3 -     Faturas\n");
+    printf("0 -     Sair\n\n\n");
+
+    printf("Bem-vindos ao /Mundo\\ da programacao em \"C\"\n\n\n\n");
+
+    printf("      *\n\n");
+    printf("     ***\n\n");
+    printf("    *****\n\n");
+    printf("     /|\\\n\n\n");
+
+    return 0;
+}

@@ -1,0 +1,35 @@
+
+#include <stdio.h>
+
+main()
+
+{
+    int n1 , n2;
+    int soma;
+    int sub;
+    int mult;
+    float div;
+
+    printf("Digite o primeiro valor:  ");
+    scanf("%d", &n1);
+    printf("\n\n");
+    printf("Digite o segundo valor:  ");
+    scanf("%d", &n2);
+
+    soma = n1 + n2;
+    sub = n1 - n2;
+    mult = n1 * n2;
+    div = (float)n1 / (float)n2;
+
+    printf("O valor da soma eh: %d", soma);
+    printf("\n\n");
+    printf("O valor da subtracao eh: %d", sub);
+    printf("\n\n");
+    printf("O valor da multiplicacao eh: %d", mult);
+     printf("\n\n");
+    printf("O valor da divisao eh: %f", div);
+
+    printf("\n\n");
+    return 0;
+
+}
